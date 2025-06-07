@@ -85,26 +85,28 @@ class _OnlineStatusWidgetState extends State<OnlineStatusWidget> {
                 _svcIsUsingPublicServer.value),
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                Text(', ', style: TextStyle(fontSize: em)),
-                Flexible(
-                  child: InkWell(
-                    onTap: onUsePublicServerGuide,
-                    child: Row(
-                      children: [
-                        Flexible(
-                          child: Text(
-                            translate('setup_server_tip'),
-                            style: TextStyle(
-                                decoration: TextDecoration.underline,
-                                fontSize: em),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                )
-              ],
+              children: [],
+              // 去掉就绪旁边的广告
+              // children: [
+              //   Text(', ', style: TextStyle(fontSize: em)),
+              //   Flexible(
+              //     child: InkWell(
+              //       onTap: onUsePublicServerGuide,
+              //       child: Row(
+              //         children: [
+              //           Flexible(
+              //             child: Text(
+              //               translate('setup_server_tip'),
+              //               style: TextStyle(
+              //                   decoration: TextDecoration.underline,
+              //                   fontSize: em),
+              //             ),
+              //           ),
+              //         ],
+              //       ),
+              //     ),
+              //   )
+              // ],
             ),
           ),
         );
