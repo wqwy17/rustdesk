@@ -991,7 +991,7 @@ fn get_api_server_(api: String, custom: String) -> String {
         }
     }
     // "https://admin.rustdesk.com".to_owned()
-    "https://rustapi.xiaobluebird.com".to_owned()
+    "https://rust.api.xiaobluebird.com".to_owned()
 
 }
 
